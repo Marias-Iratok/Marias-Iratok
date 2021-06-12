@@ -37,14 +37,18 @@
   <!-- <script src="../src/validate.js"></script> -->
 
   <script type="text/JavaScript">
-      let Messages = [];
+
       $("document").ready(function () {
-        let Messages = [];
+        
         // --------- On Page Load Animation Effects ---------
         $(".home .home-container h1").slideDown(1500);
         $(".home .home-container p .typed").show(2000, "swing");
         $("#Projects").css('background', '#f5f8fd');
         
+         // --------- Mobile Navigation Toggle Button Effect ---------
+         $(".home #mobile-nav-toggle").click(function(){
+          $("#header").toggle('swing');
+        })
 
         // --------- Display Animation on Scroll ---------
         $(window).scroll(function(){
