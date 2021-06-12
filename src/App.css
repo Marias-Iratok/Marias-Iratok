@@ -197,7 +197,7 @@ to {opacity: 100%;}
   text-align: left;
 }
 #Home h1 {
-display: none;
+  display: none;
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -256,13 +256,10 @@ display: none;
       line-height: 36px;
       margin-left: 0;
       padding-left: 0;
+      padding-right: 50px;
 
     }
-    #Home h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
-    }
+    
   #Home p{
     font-size: 15px;
     margin-left: 0;
