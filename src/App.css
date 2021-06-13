@@ -113,6 +113,24 @@ to {opacity: 100%;}
   color: #149ddd;
 }
 
+.scroll-display #scroll-percentage{
+  color: #ffffff; 
+  position: fixed;
+  bottom: 3%;
+  left: 6%;
+  border: 5px solid #2c2f3f;
+  box-shadow: 0 0 15px 0 #3f3733;
+  font-size: 20px;
+  padding: 30px;
+  width: 130px;
+  overflow: hidden;
+  
+}
+@media (max-width: 768px) {
+  .scroll-display #scroll-percentage{
+      display: none;
+  }    
+}
 
 /* -------------- MainBody Component Css --------------  */
 #main {
@@ -197,7 +215,7 @@ to {opacity: 100%;}
   text-align: left;
 }
 #Home h1 {
-  display: none;
+display: none;
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -217,6 +235,7 @@ display: none;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+
 @media (min-width: 1024px) {
   #Home {
     background-attachment: fixed;
@@ -226,46 +245,28 @@ display: none;
 @media (max-width: 768px) {
   #Home{
   background: url("images/cropped.JPG") top right;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-  background-position: center;
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      min-width: 100%;
+      min-height: 100%;
+      background-position: center;
+}
+  
+#Home h1 {
+    font-size: 36px;
+    line-height: 36px;
+      margin-top: 200px;
   }
-  #Home:before {
-    content: "";
-    background: rgba(5, 13, 24, 0.3);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+  #Home h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
-  #Home .home-container {
-    position: relative;
-    z-index: 2;
-    min-width: 300px;
-    top: 230px;
-    left: 100px;
-    text-align: left;
-  }
-  #Home h1 {
-      font-size: 28px;
-      line-height: 36px;
-      margin-left: 0;
-      padding-left: 0;
-      padding-right: 50px;
-
-    }
-    
-  #Home p{
-    font-size: 15px;
-    margin-left: 0;
-    padding-left: 0;
-
-  }
+#Home p{
+  font-size: 20px;
+}
+  
 }
 
 /* -------------- About Component Css --------------  */
@@ -313,6 +314,23 @@ display: none;
   color: #149ddd;
   line-height: 0;
 }
+
+@media (max-width: 768px) {
+  .about img{
+      margin: 10px;
+  }
+  .about .about-content{
+      margin: 20px;
+      
+  }
+  .about .content .sub-content{
+      border-left: 0 solid #000000;
+      padding: 0;
+      margin:10px;
+  }
+}
+
+
 /* -------------- Skills Component in About Component Css --------------  */
 .skills{
   background: #f5f8fd;
@@ -450,6 +468,7 @@ display: none;
 /* -------------- Projects Component Css --------------  */
 .projects .project-lists .project-item .project-img{
 border: 1px solid #fff;
+  /* transform: scale(0.15); */
   min-height: 220px;
   min-width: 370px;
   border-left: 0.5px solid rgba(0, 0, 0, 0.12);
@@ -461,16 +480,17 @@ border: 1px solid #fff;
 border: 0px solid #fff;
 border-radius: 5%;
 box-shadow: 5px 10px 8px 10px #888888;
+-ms-transform: scale(1.15); /* IE 9 */
+-webkit-transform: scale(1.15); /* Safari 3-8 */
 transform: scale(1.15); 
 }
-@media (max-width: 768px) {
-  .projects .project-lists .project-item .project-img{
-    min-height: 150px;
-    min-width: 220px;
-    border-left: 0.5px solid rgba(0, 0, 0, 0.12);
-  
-  }
 
+@media screen and (max-width: 768px) {
+  .projects .project-lists .project-item .project-img{
+      min-height: 170px;
+      min-width: 290px;
+      padding: 20px 10px;
+  }
 }
 
 
@@ -637,5 +657,14 @@ transform: scale(1.15);
   font-size: 30px;
   color: #149ddd;
 }
+
+
+
+
+
+
+
+
+
 
 
