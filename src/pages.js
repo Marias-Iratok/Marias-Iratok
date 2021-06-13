@@ -74,7 +74,7 @@ export function MainHeading() {
     const ScrollDiaplay = () => {
         return (
             <div className="scroll-display">
-
+                <h2 id="scroll-percentage" className="rounded">0 %</h2>
             </div>
         )
     }

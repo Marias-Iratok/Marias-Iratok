@@ -168,6 +168,16 @@
           }
         });
         
+        // --------- Scroll Percentage on Header Functionality ---------
+       
+        $(window).scroll(function(){
+          let height = $(document).height()-$(window).height();
+          let progress = Math.round((pageYOffset/height)*100);
+          $(".scroll-display #scroll-percentage").empty();
+          $(".scroll-display #scroll-percentage").append(`${progress} %`);
+
+        });
+
 
       });
   
