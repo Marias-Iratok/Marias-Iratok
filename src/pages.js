@@ -195,22 +195,22 @@ export function MainBody() {
                         </div>
                         <div className="skills-container-2 col-lg-6">
                             <div className="progress">
-                                <span className="skill">Python <i className="val">40%</i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{ width: "40%" }} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div className="progress">
                                 <span className="skill">Bootstrap<i className="val">85%</i></span>
                                 <div className="progress-bar-wrap">
                                     <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
+                            <div className="progress">
+                                <span className="skill">Wordpress | CMS <i className="val">70%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{ width: "70%" }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
 
                             <div className="progress">
-                                <span className="skill">Photoshop <i className="val">50%</i></span>
+                                <span className="skill">Python <i className="val">40%</i></span>
                                 <div className="progress-bar-wrap">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style={{ width: "40%" }} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -277,9 +277,9 @@ export function MainBody() {
                     <div className="skills-list">
                         <h3 className="resume-title">Skills</h3>
                         <div className="resume-item">
-                            <ul className="list-unstyled">
+                            <ul className="resume-skills list-unstyled">
                                 <li><strong>Programming languages: </strong>HTML/CSS, Javascript, Python.</li>
-                                <li><strong>Frameworks: </strong>Javascript (NodeJS, ReactJS, jQuery).</li>
+                                <li><strong>Frameworks: </strong>Javascript (NodeJS, ReactJS, jQuery), Bootstrap, Wordpress/CMS.</li>
                                 <li><strong>Databases: </strong>SQL (MySQL, SQLite).</li>
                                 <li><strong>Cloud infrastructure: </strong>AWS.</li>
                                 <li><strong>IT Recruitment: </strong>Sourcing, Negotiations, BenchSales, ATS Management.</li>

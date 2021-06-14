@@ -433,7 +433,9 @@ display: none;
 .resume .resume-item ul {
   padding-left: 20px;
 }
-
+.resume .resume-item .resume-skills{
+  margin-bottom: 0;
+}
 .resume .resume-item ul li {
   padding-bottom: 10px;
 }
