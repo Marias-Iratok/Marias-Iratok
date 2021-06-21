@@ -138,8 +138,8 @@ export function MainBody() {
                                 <div className="col-lg-6">
                                     <ul className="list-unstyled">
                                         <li><i className="fas fa-chevron-right"></i> <strong>Birthday:</strong> <span>19 June 1995</span></li>
-                                        <li><i className="fas fa-chevron-right"></i> <strong>Website:</strong> <span>www.sairamkotari2.unaux.com</span></li>
-                                        <li><i className="fas fa-chevron-right"></i> <strong>Phone:</strong> <span>+91 8019371377</span></li>
+                                        <li><i className="fas fa-chevron-right"></i> <strong>Website:</strong> <span><a href="https://sairamkotari.herokuapp.com/">www.sairamkotari2.unaux.com</a></span></li>
+                                        <li><i className="fas fa-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:8019371377">+91 8019371377</a></span></li>
                                         <li><i className="fas fa-chevron-right"></i> <strong>City:</strong> <span>Tadepalli, Andhra Pradesh, India.</span></li>
                                     </ul>
                                 </div>
@@ -147,12 +147,12 @@ export function MainBody() {
                                     <ul className="list-unstyled">
                                         <li><i className="fas fa-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                                         <li><i className="fas fa-chevron-right"></i> <strong>Degree:</strong> <span>Graduate</span></li>
-                                        <li><i className="fas fa-chevron-right"></i> <strong>PhEmailone:</strong> <span>sairam_kotari@outlook.com</span></li>
+                                        <li><i className="fas fa-chevron-right"></i> <strong>Email:</strong> <a href="mailto:sairam_kotari@outlook.com"><span>sairam_kotari@outlook.com</a></span></li>
                                         <li><i className="fas fa-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                     </ul>
                                 </div>
                             </div>
-                            <p>looking to leverage my experience building responsive and scaleable web apps to solve interesting problems that delight end-users. I’ve built a few projects by myself and I’m looking for a role where I can grow and learn from other experienced team members.</p>
+                            <p>looking to leverage my experience building responsive and scaleable web apps to solve interesting problems that delight end-users. I built a few projects by myself and I’m looking for a role where I can grow and learn from other experienced team members.</p>
                         </div>
                     </div>
                 </div >
