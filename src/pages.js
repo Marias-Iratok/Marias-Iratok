@@ -147,7 +147,7 @@ export function MainBody() {
                                     <ul className="list-unstyled">
                                         <li><i className="fas fa-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                                         <li><i className="fas fa-chevron-right"></i> <strong>Degree:</strong> <span>Graduate</span></li>
-                                        <li><i className="fas fa-chevron-right"></i> <strong>Email:</strong> <a href="mailto:sairam_kotari@outlook.com"><span>sairam_kotari@outlook.com</a></span></li>
+                                        <li><i className="fas fa-chevron-right"></i> <strong>Email:</strong> <a href="mailto:sairam_kotari@outlook.com"><span>sairam_kotari@outlook.com</span></a></li>
                                         <li><i className="fas fa-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                                     </ul>
                                 </div>
