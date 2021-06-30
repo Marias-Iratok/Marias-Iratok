@@ -138,7 +138,7 @@ export function MainBody() {
                                 <div className="col-lg-6">
                                     <ul className="list-unstyled">
                                         <li><i className="fas fa-chevron-right"></i> <strong>Birthday:</strong> <span>19 June 1995</span></li>
-                                        <li><i className="fas fa-chevron-right"></i> <strong>Website:</strong> <span><a href="https://sairamkotari.herokuapp.com/">www.sairamkotari2.unaux.com</a></span></li>
+                                        <li><i className="fas fa-chevron-right"></i> <strong>Website:</strong> <span><a href="https://sairamkotari.herokuapp.com/">www./sairamkotari.herokuapp.com</a></span></li>
                                         <li><i className="fas fa-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:8019371377">+91 8019371377</a></span></li>
                                         <li><i className="fas fa-chevron-right"></i> <strong>City:</strong> <span>Tadepalli, Andhra Pradesh, India.</span></li>
                                     </ul>
